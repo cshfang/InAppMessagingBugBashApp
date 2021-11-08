@@ -1,0 +1,21 @@
+{
+    "appName": "inappmessagingbb",
+    "roleName": "pinpointLambdaRole2d212160",
+    "cloudformationPolicyName": "cloudformationPolicy2d212160",
+    "cloudWatchPolicyName": "cloudWatchPolicy2d212160",
+    "pinpointPolicyName": "pinpointPolicy2d212160",
+    "authPolicyName": "pinpoint_amplify_2d212160",
+    "unauthPolicyName": "pinpoint_amplify_2d212160",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

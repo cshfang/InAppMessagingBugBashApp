@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-inappmessagingbb-dev-112823-authRole",
+      "UnauthRoleArn": "arn:aws:iam::234525499027:role/amplify-inappmessagingbb-dev-112823-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::234525499027:role/amplify-inappmessagingbb-dev-112823-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-inappmessagingbb-dev-112823-deployment",
+      "UnauthRoleName": "amplify-inappmessagingbb-dev-112823-unauthRole",
+      "StackName": "amplify-inappmessagingbb-dev-112823",
+      "StackId": "arn:aws:cloudformation:us-west-2:234525499027:stack/amplify-inappmessagingbb-dev-112823/549e5c40-3f2f-11ec-8309-0285f7c297eb",
+      "AmplifyAppId": "d3vk1jb061f0fb"
+    },
+    "categories": {
+      "auth": {
+        "cognito50d6dbc3": {}
+      }
+    }
+  }
+}

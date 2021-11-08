@@ -1,0 +1,19 @@
+{
+    "identityPoolName": "inappmessagingbb_identitypool_50d6dbc3",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognito50d6dbc3",
+    "sharedId": "50d6dbc3",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}
