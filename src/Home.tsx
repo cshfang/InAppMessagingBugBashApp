@@ -114,7 +114,7 @@ const Home = () => {
         <View style={styles.row}>
           <Button
             onPress={() => {
-              Analytics.record({});
+              Analytics.record(event);
             }}
             title="Record Analytics"
           />
