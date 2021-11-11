@@ -119,7 +119,9 @@ const Home = () => {
             title="Record Analytics"
           />
           <Button
-            onPress={InAppMessaging.clearMessages}
+            onPress={() => {
+              InAppMessaging.dispatchEvent(event);
+            }}
             title="Dispatch Event"
             variant="secondary"
           />
